@@ -13,8 +13,9 @@ Software to drive the [Keepdexpansion](https://github.com/emfcamp/Keebdexpansion
 | FN + CIRCLE | Set all leds to green |
 | FN + CLOUD | Set all leds to blue |
 | FN + DIAMOND | Set all leds to purble |
+| FN + BACKSPACE | Set all leds to white |
 | FN + SPACE | Set leds to static rainbow |
 | FN + SOLDERPARTY | Make leds follow tildagon pattern |
+| CTRL + ALT + D | Toggle debug output |
 
 Note: SOLDERPARTY is the key next to CTRL
-
