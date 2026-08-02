@@ -15,6 +15,7 @@ Software to drive the [Keepdexpansion](https://github.com/emfcamp/Keebdexpansion
 | FN + DIAMOND | Set all leds to purble |
 | FN + SPACE | Set leds to static rainbow |
 | FN + SOLDERPARTY | Make leds follow tildagon pattern |
+| FN + ALT | Toggle the BackLED on the tildagon port |
 
 Note: SOLDERPARTY is the key next to CTRL
 
