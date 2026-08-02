@@ -5,6 +5,7 @@ from system.eventbus import eventbus
 import neopixel
 from tildagonos import tildagonos
 from system.scheduler import scheduler
+from system.backleds.app import active_back_leds
 import asyncio
 
 # Based on https://gitlab.com/why2025/team-badge/firmware/-/blob/main/badgevms/drivers/tca8418.c
@@ -142,6 +143,9 @@ class KeyboardApp(App):
                 self.setup_led_group("horizontal")
             elif keycode == "DOWN":
                 self.setup_led_group("vertical")
+            elif keycode == "ALT":
+                idx = self.hexpansion_config.port - 1
+                active_back_leds[idx] = not active_back_leds[idx]
 
         if keycode == "SHIFT":
             self.shifted = pressed
